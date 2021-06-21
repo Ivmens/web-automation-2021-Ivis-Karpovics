@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624304306792' stop='1624304321183'>
+    <name>Test chat between two users</name>
+    <title>Test chat between two users</title>
+    <test-cases>
+        <test-case start='1624304306817' status='passed' stop='1624304321182'>
+            <name>Two users are chatting</name>
+            <title>Two users are chatting</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='isMultiremote' value='true'/>
+            </parameters>
+            <steps>
+                <step start='1624304306822' status='passed' stop='1624304312333'>
+                    <name>Given I see that both users are one page</name>
+                    <title>Given I see that both users are one page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624304312333' status='passed' stop='1624304312703'>
+                    <name>When I see that both users are chosen their nickname</name>
+                    <title>When I see that both users are chosen their nickname</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624304312703' status='passed' stop='1624304318052'>
+                    <name>And I see that both useres are connected</name>
+                    <title>And I see that both useres are connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624304318052' status='passed' stop='1624304318148'>
+                    <name>And I see that both users see themselves</name>
+                    <title>And I see that both users see themselves</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624304318148' status='passed' stop='1624304318435'>
+                    <name>Then I see that user 1 sends a message</name>
+                    <title>Then I see that user 1 sends a message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624304318435' status='passed' stop='1624304319044'>
+                    <name>And I see that user 2 recieved message</name>
+                    <title>And I see that user 2 recieved message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624304319044' status='passed' stop='1624304319330'>
+                    <name>And I see that user 2 sends a message</name>
+                    <title>And I see that user 2 sends a message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624304319330' status='passed' stop='1624304319893'>
+                    <name>And I see that user 1 recieved message</name>
+                    <title>And I see that user 1 recieved message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624304319893' status='passed' stop='1624304321179'>
+                    <name>And I see that both users are disconnected</name>
+                    <title>And I see that both users are disconnected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
