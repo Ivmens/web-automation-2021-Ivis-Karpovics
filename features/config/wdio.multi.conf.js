@@ -19,8 +19,7 @@ exports.config = merge(baseConfig.config, {
         },
         user2: {
             capabilities: {
-                browserName: 'chrome',
-                'goog:chromeOptions': chromeOptions
+                browserName: 'firefox',
             }
         }
     }

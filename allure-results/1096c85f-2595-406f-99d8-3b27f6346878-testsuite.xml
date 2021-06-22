@@ -1,0 +1,96 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624358104841' stop='1624358119766'>
+    <name>Test chat between two users</name>
+    <title>Test chat between two users</title>
+    <test-cases>
+        <test-case start='1624358104869' status='broken' stop='1624358119758'>
+            <name>Two users are chatting</name>
+            <title>Two users are chatting</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='isMultiremote' value='true'/>
+            </parameters>
+            <steps>
+                <step start='1624358104880' status='passed' stop='1624358118207'>
+                    <name>Given I see that both users are one page</name>
+                    <title>Given I see that both users are one page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624358118207' status='broken' stop='1624358119757'>
+                    <name>When I see that both users are chosen their nickname</name>
+                    <title>When I see that both users are chosen their nickname</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='149eada9-46fa-4cda-9c75-59dbd9899ef7-attachment.png' type='image/png' size='38076'/>
+                        <attachment title='Screenshot' source='77924118-2bb8-45ab-841c-930944a168c4-attachment.png' type='image/png' size='34455'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1624358119758' status='canceled' stop='1624358119759'>
+                    <name>And I see that both useres are connected</name>
+                    <title>And I see that both useres are connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624358119759' status='canceled' stop='1624358119759'>
+                    <name>And I see that both users see themselves</name>
+                    <title>And I see that both users see themselves</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624358119759' status='canceled' stop='1624358119759'>
+                    <name>Then I see that user 1 sends a message</name>
+                    <title>Then I see that user 1 sends a message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624358119759' status='canceled' stop='1624358119760'>
+                    <name>And I see that user 2 recieved message</name>
+                    <title>And I see that user 2 recieved message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624358119760' status='canceled' stop='1624358119760'>
+                    <name>And I see that user 2 sends a message</name>
+                    <title>And I see that user 2 sends a message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624358119760' status='canceled' stop='1624358119760'>
+                    <name>And I see that user 1 recieved message</name>
+                    <title>And I see that user 1 recieved message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624358119760' status='canceled' stop='1624358119760'>
+                    <name>And I see that both users are disconnected</name>
+                    <title>And I see that both users are disconnected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid element state: Element is disabled: &lt;input id="user" class="form-control" type="text"></message>
+                <stack-trace>invalid element state: Element is disabled: &lt;input id="user" class="form-control" type="text">
+                    at Object.getErrorFromResponseBody (C:\Users\Ivmens\Documents\GitHub\web-automation-2021-Ivis-Karpovics\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\Users\Ivmens\Documents\GitHub\web-automation-2021-Ivis-Karpovics\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Ivmens\Documents\GitHub\web-automation-2021-Ivis-Karpovics\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.setValue (C:\Users\Ivmens\Documents\GitHub\web-automation-2021-Ivis-Karpovics\node_modules\webdriverio\build\commands\element\setValue.js:30:5)
+                    at Element.runCommandWithHooks (C:\Users\Ivmens\Documents\GitHub\web-automation-2021-Ivis-Karpovics\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\Ivmens\Documents\GitHub\web-automation-2021-Ivis-Karpovics\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\Ivmens\Documents\GitHub\web-automation-2021-Ivis-Karpovics\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.setValue (C:\Users\Ivmens\Documents\GitHub\web-automation-2021-Ivis-Karpovics\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at ChatTest.usersChooseUsername (C:\Users\Ivmens\Documents\GitHub\web-automation-2021-Ivis-Karpovics\features\test_object\/chatTest.js:18:47)
+                    at World.&lt;anonymous> (C:\Users\Ivmens\Documents\GitHub\web-automation-2021-Ivis-Karpovics\features\step-definitions\/chatSteps.js:10:20)
+                    at World.executeSync (C:\Users\Ivmens\Documents\GitHub\web-automation-2021-Ivis-Karpovics\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\Ivmens\Documents\GitHub\web-automation-2021-Ivis-Karpovics\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

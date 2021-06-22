@@ -10,8 +10,13 @@ export class ChatTest {
     usersOpen(){
         pages.user1.chatPage.thisPage()
         pages.user2.chatPage.thisPage()
+        pages.user1.chatPage.removeElement()
+        pages.user2.chatPage.removeElement()
     }
     usersChooseUsername(){
+        pages.user1.chatPage.chooseUsername().waitForEnabled()
+        pages.user2.chatPage.chooseUsername().waitForEnabled()
+        
         pages.user1.chatPage.chooseUsername().setValue(user1Name)
         pages.user2.chatPage.chooseUsername().setValue(user2Name)
     }
@@ -49,4 +54,5 @@ export class ChatTest {
         pages.user2.chatPage.DCBtn().click()
         pages.user2.chatPage.getDcMessage().waitForDisplayed()
     }
+
 }

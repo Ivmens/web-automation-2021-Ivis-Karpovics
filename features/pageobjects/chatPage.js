@@ -32,5 +32,11 @@ export class ChatPage extends Page{
     getDcMessage(){
         return this.browser.$('div=Connection to tcp://broker.mqtt.cool:1883 lost')
     }
+    removeElement(){
+        this.browser.execute(() => {
+            const elemToRemove = document.querySelector('img[alt="Fork me on GitHub"]');
+            elemToRemove.remove();
+        });
+    }
 
 }
